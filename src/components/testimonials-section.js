@@ -1,4 +1,5 @@
 const TestimonialsSection = (props) => {
+    // testimonials is an array of object with 
   const { annotationPrefix, testimonials, title } = props;
   return (
     <div

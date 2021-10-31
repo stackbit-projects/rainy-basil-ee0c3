@@ -20,7 +20,7 @@ const TestimonialsSection = (props) => {
               {testimonial.body}
             </p>
             <p className="text-sm text-gray-400" data-sb-field-path=".source">
-              Source: {testimonial.source}
+              Author: {testimonial.source}
             </p>
           </div>
         ))}

@@ -1,12 +1,12 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
-import { TestimonialsSection } from './TestimonialsSection';
+import { LogoSection } from './LogoSection';
 
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
-    TestimonialsSection
+    LogoSection
 
     // Override any static or dynamic component,
     // or register your own dynamic component.

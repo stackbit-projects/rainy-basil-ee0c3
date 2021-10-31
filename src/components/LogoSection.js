@@ -14,7 +14,7 @@ const LogoSection = (props) => {
                 data-sb-field-path=".testimonials">
                 {testimonials.map((testimonial, index) => (
                     <div className="p-6" key={index} data-sb-field-path={`.${index}`}>
-                        <h2 className="text-sm text-gray-400" data-sb-field-path=".name">
+                        <h2 className="text-sm text-gray-400" data-sb-field-path=".header">
                             {logo.name}
                         </h2>
                     </div>

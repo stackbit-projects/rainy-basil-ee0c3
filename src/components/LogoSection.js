@@ -17,7 +17,7 @@ const LogoSection = (props) => {
                         <p className="text-sm text-gray-400" data-sb-field-path=".body">
                             {testimonial.body}
                         </p>
-                        <h6></h6>
+                        <h6 className="text-sm text-gray-400" data-sb-field-path=".body"></h6>
                     </div>
                 ))}
             </div>

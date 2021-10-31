@@ -20,7 +20,9 @@ const TestimonialsSection = (props) => {
               {testimonial.body}
             </p>
             <p>
-                <small></small>
+                <small>
+                    
+                </small>
             </p>
           </div>
         ))}

@@ -16,7 +16,8 @@ const LogoSection = (props) => {
                     <div className="p-6" key={index} data-sb-field-path={`.${index}`}>
                         <p className="text-sm text-gray-400" data-sb-field-path=".body">
                             {testimonial.body}
-                        </h2>
+                        </p>
+                        <h6></h6>
                     </div>
                 ))}
             </div>

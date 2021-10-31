@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
-import { TestimonialsSection } from './testimonials-section';
+import { TestimonialsSection } from './TestimonialsSection';
 
 registerComponents({
     // Register all Stackbit components

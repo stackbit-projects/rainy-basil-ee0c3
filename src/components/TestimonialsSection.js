@@ -17,7 +17,7 @@ const TestimonialsSection = (props) => {
                         <p className="text-sm text-gray-400" data-sb-field-path=".title">
                             {testimonials.title}
                         </p>
-                        <p className="text-sm text-gray-400" data-sb-field-path=".title">
+                        <p className="text-sm text-gray-400" data-sb-field-path=".source">
                             {testimonials.title}
                         </p>
                     </div>

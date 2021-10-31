@@ -1,6 +1,6 @@
 const TestimonialsSection = (props) => {
     // testimonials is an array of object with 2 properties
-    // 
+    // body and source
   const { annotationPrefix, testimonials, title } = props;
   return (
     <div
